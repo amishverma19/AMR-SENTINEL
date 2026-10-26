@@ -1,0 +1,11 @@
+{
+  "name": "hack-for-social-cause-yuva-bharat",
+  "version": "1.0.0",
+  "description": "AMR Sentinel — Deterministic Outpatient Antimicrobial Stewardship Platform for Hack for Social Cause (Yuva Bharat)",
+  "private": true,
+  "scripts": {
+    "dev:backend": "cd amr-guard && python -m uvicorn app.main:app --reload --port 8000",
+    "dev:frontend": "cd amr-guard/frontend && npm run dev",
+    "build:frontend": "cd amr-guard/frontend && npm run build"
+  }
+}
